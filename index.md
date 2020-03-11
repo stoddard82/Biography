@@ -1,0 +1,142 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+        
+        .col-1 {
+            width: 8.33%;
+        }
+        
+        .col-2 {
+            width: 16.66%;
+        }
+        
+        .col-3 {
+            width: 25%;
+        }
+        
+        .col-4 {
+            width: 33.33%;
+        }
+        
+        .col-5 {
+            width: 41.66%;
+        }
+        
+        .col-6 {
+            width: 50%;
+        }
+        
+        .col-7 {
+            width: 58.33%;
+        }
+        
+        .col-8 {
+            width: 66.66%;
+        }
+        
+        .col-9 {
+            width: 75%;
+        }
+        
+        .col-10 {
+            width: 83.33%;
+        }
+        
+        .col-11 {
+            width: 91.66%;
+        }
+        
+        .col-12 {
+            width: 100%;
+        }
+        
+        html {
+            font-family: "Lucida Sans", sans-serif;
+        }
+        
+        .header {
+            background-color: #696969;
+            color: white;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 3em;
+            padding-left: 15px;
+        }
+        
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: #33b5e5;
+            color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        }
+        
+        .menu li:hover {
+            background-color: #0099cc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row" style="background-color: dimgray; display: block; height: auto; margin-top: 10px;">
+        <div class="col-10, header" style="height: 70px;">
+            <p style="margin-top: -7px">Shane Stoddard</p>
+        </div>
+    </div>
+
+
+    <div class="row" style="display: block">
+        <div class="col-4" style="text-align: center;">
+            <img src="Stodd.png">
+        </div>
+        <div class="col-8" style="text-align: center;">
+            <p>Developing strong relationships is the foundation of everything I do, both professionally and personally.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+        Shane Stoddard is a veteran originally from Ohio, who has spent the last twenty years in Richmond. He has worked as a copier technican for most of that time earning several model specific certificates. He has earned an Associatess in Telecommunications and is slowly making his way into the data analytics field. He has recently completed a course through the Univeristy of Richmond on Data Analytics which includes the subjects. Advanced Excel including Pivot Tables and VBA Scripting. Fundamental Statistics including Modeling and Forecasting. Python Programming including Python 3, NumPy, Pandas, Matplotlib, API Interactions and Social Media Mining. Databases My SQL, MongoDB and ETL. Front-End Web Visualization including HTML, CSS, Bootstrap, Dashboarding, JavaScript Charting, D3.js and Geomapping with Leaflet.js. Business Intelligence Software including Tableau. Advanced Topics including Big Data Analytics with Hadoop, and Machine Learning.<br><br>He plans on furthering his education in this field and will also be getting a pmp certfication, and as a hobby he will be acquiring a <a href="https://www.virginiaarcheology.org/archeological_tech_cert_program/">Archeological Technician Certification.</a>
+        </div>
+    </div>
+    
+    <div class="row">
+    <div class="col-12" style="float: right;">
+            <a href="https://www.linkedin.com/in/shane-stoddard-8097448b?trk=people-guest_profile-result-card_result-card_full-click"><img style="max-height: 30px; float: right;" src="linked.png"></a>
+        </div>
+    </div>
+    
+    <div class="row">
+    <div class="col-12" style="float: right;">
+            <a href="mailto:Shane.M.Stoddard@gmail.com" target="_top" style="float: right; margin-top: -20px;">Shane.M.Stoddard@gmail.com</a>
+        </div>
+    </div>
+
+
+
+</body>
